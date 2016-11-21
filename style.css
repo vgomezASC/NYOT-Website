@@ -1,0 +1,65 @@
+body{
+		color: black;
+    font-family: arial; 
+    font-size: 12px; 
+    background-color: gray;
+} 
+
+#wrapper{
+		width: 1000px;
+        margin: 0px auto;
+} 
+
+#header{
+  	color: white; 
+    font-family: arial; 
+    font-size: 12px; 
+		background-color: black;
+		padding: 25px;
+		width: 950px;
+		float: left; 
+}
+
+#main{
+  	color: black; 
+    font-family: arial; 
+    font-size: 12px; 
+		background-color: white;
+		margin: auto; 
+		padding: 25px;
+		width: 700px;
+		height: 450px; 
+		float: right; 
+} 
+
+#sidebar{
+  	color: white; 
+    font-family: arial; 
+    font-size: 12px; 
+		background-color: blue;
+		padding: 25px;
+		width: 200px;
+    height: 450px; 
+		float: left;
+} 
+
+#footer{
+  	clear: both; 
+  	color: white; 
+    font-family: arial; 
+    font-size: 12px; 
+		background-color: black;
+		padding: 25px;
+		width: 950px;
+		float: left;
+} 
+
+#sidebar ul li {
+		display: inline-block;
+		width: 50%;
+		font-size: 150%;
+		padding: 15px;
+		margin-bottom: 5px;
+		background: white;
+		border: 1px solid #1d2c3e;    
+}
